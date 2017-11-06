@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	max-width: 100%;
+	max-height: 100%;
+	color: white;
+}
+header{
+	background-color: #293A4A;
+}
+header .container{
+	height: 70px;
+    padding: 0 100px;
+    border-bottom: 1px solid #485664;
+    display: flex;
+    justify-content: space-between;
+}
+header .sub-block{
+	display: flex;
+}
+header select{
+	background-color: #293A4A;
+	border: none;
+}
+header a{
+	color: white;
+    text-decoration: none;
+}
+header a:hover{
+	color:#7db343;
+}
+.logo-block{
+	height: 137px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-block > *{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.select-config{
+	width: 67px;
+	border-right: 1px solid #485664;
+	display: flex;
+	justify-content: center;
+}
+
+.info{
+	margin-left: 32px;
+}
+nav{
+	height: 78px;
+	background-color: white;
+	display: flex;
+    align-items: center;
+}
+nav ul{
+    width: 1904px;
+	display: flex;
+    justify-content: space-around;
+	
+}
+nav ul li a{
+	color: #293a4a;
+	
+}
+nav ul li{
+	list-style: none;
+}
+.slider .container .list-images img{
+	width: 100%;
+}
+.container{
+	position: relative;
+}
+.description h2{
+	color: #7DB343;
+	text-align: center;
+	text-transform: uppercase;
+}
+.description{
+	width: 100%;
+    position: absolute;
+    top: 29%;
+    font-size: 60px;
+}
+.description .title{
+	font-size: 50%;
+	color:#fff;
+	background-color: #E48F4A;
+	padding: 5px;
+}
+.buttons a{
+	text-decoration: none;
+	color: #9ba3ab;
+}
+.container .buttons a span{
+	width: 142px;
+}
+.a-next{
+	margin-right: 6%;
+}
+.a-prev{
+	margin-left: 6%;
+}
+.buttons{
+	display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+}
+.but-next:before{
+	height: 2px;
+	width: 8%;
+	content: '';
+	position: absolute;
+	bottom: -2px;
+	background-color: #9ba3ab;
+}
+.but-next:after{
+    width: 0;
+    height: 0;
+    content: '';
+    right: 0;
+    border-style: solid;
+    border-width: 11px 0 11px 12px;
+    border-color: transparent transparent transparent #9ba3ab;
+    display: inline-block;
+    position: absolute;
+    bottom: -12px;
+}
+.but-prev:before{
+    content: '';
+    display: block;
+    position: absolute;
+    left:6px;
+    bottom: -2px;
+    height: 2px;
+    width: 100px;
+    background: #9ba3ab;
+}
+.but-prev:after{
+    display: inline-block;
+    position: absolute;
+    bottom: -12px;
+    content: '';
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11px 12px 11px 0;
+    border-color: transparent #9ba3ab transparent transparent;
+}
